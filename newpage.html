@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="newpage.css" />
+    <title>Pagination document</title>
+  </head>
+  <body>
+    <div>
+      <h2>pagination table</h2>
+      <input
+        id="searchData"
+        oninput="myFunction(event)"
+        placeholder="Search for names.."
+      />
+
+      <table>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>name</th>
+          </tr>
+        </thead>
+        <tbody id="table"></tbody>
+      </table>
+      <div id="pagenumber"></div>
+      <span id="pageno"></span>
+      <select name="dropdown" id="dropdown">
+        <option value="5">5</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="1">1</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12"></option>
+      </select>
+    </div>
+  </body>
+  <script src="/public/newpage.js"></script>
+</html>
